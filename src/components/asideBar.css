@@ -1,0 +1,13 @@
+.store-notice {
+  position: relative;
+  color: #fff;
+  background-color: #233a95;
+  z-index: 1001;
+}
+.store-notice .container {
+    
+  font-size: 0.75rem;
+  text-align: center;
+  padding-top: 0.5625rem;
+  padding-bottom: 0.5625rem;
+}
