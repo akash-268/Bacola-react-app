@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import "../css/base.css";
+import "../css/element.css";
+import "../css/media.css";
+import "../css/header.css";
+import "../css/main.css";
 
 const Sidebar = () => {
   const [close, setClose] = useState(true);
@@ -8,7 +12,7 @@ const Sidebar = () => {
   };
   return (
     close && (
-      <div className="site-canvas" onClick={closeHandler} style={{opacity: '1', visibility: "inherit", transform: 'translate(0%)'}}>
+      <div className="site-canvas" onClick={closeHandler}>
         <div className="site-scroll">
           <div className="canvas-header">
             <div className="site-brand">

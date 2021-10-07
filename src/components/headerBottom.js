@@ -1,5 +1,10 @@
 import React, { useState } from "react";
+
 import "../css/base.css";
+import "../css/element.css";
+import "../css/media.css";
+import "../css/header.css";
+import "../css/main.css";
 
 const HeaderBottom = () => {
   const [clicked, setClicked] = useState(false);
