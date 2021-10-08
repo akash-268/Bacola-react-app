@@ -8,7 +8,9 @@ import CarouselTab from "./Carousel";
 
 const TopSection = () => {
   return (
-    <CarouselTab/>
+    <div className="container d-flex justify-content-center mr-5 mt-4">
+      <CarouselTab />
+    </div>
   );
 };
 

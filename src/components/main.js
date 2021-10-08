@@ -1,10 +1,14 @@
 import React from "react";
-import TopSection from "./section";
+
 import "../css/base.css";
 import "../css/element.css";
 import "../css/media.css";
 import "../css/header.css";
 import "../css/main.css";
+
+import TopSection from "./TopSection";
+import MidSection from "./MidSection";
+import BottomSection from "./BottomSection";
 
 const Main = () => {
   return (
@@ -18,7 +22,9 @@ const Main = () => {
             data-elementor-settings="[]"
           >
             <div className="elementor-section-wrap">
-                <TopSection/>
+              <TopSection />
+              <MidSection />
+              <BottomSection/>
             </div>
           </div>
         </div>
