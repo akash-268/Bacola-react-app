@@ -1,4 +1,5 @@
 import React from "react";
+import HotProducts from "./HotProducts";
 import SideImages from "./SideImages";
 
 function MidSection() {
@@ -19,6 +20,7 @@ function MidSection() {
     >
       <div className="elementor-container elementor-column-gap-extended">
         <SideImages/>
+        <HotProducts/>
       </div>
     </section>
   );
