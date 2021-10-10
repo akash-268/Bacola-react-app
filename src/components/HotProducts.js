@@ -4,18 +4,7 @@ import "../css/base.css";
 
 function HotProducts() {
   return (
-    <div
-      className="
-                      elementor-column
-                      elementor-col-50
-                      elementor-top-column
-                      elementor-element
-                      elementor-element-9a40b7e
-                    "
-      data-id="9a40b7e"
-      data-element_type="column"
-    >
-      <div className="elementor-widget-wrap elementor-element-populated">
+        <>
         <div
           className="
                           elementor-element
@@ -179,8 +168,7 @@ function HotProducts() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+        </>
   );
 }
 
