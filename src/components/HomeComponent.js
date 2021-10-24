@@ -34,7 +34,7 @@ const HomeComponent=()=>{
               </div>
           </div>
           <div className="row">
-              <div className="col-sm-3 px-4">
+              <div className="col-sm-3 pe-4 ps-0">
                   <h6>Trending Products</h6>
                   <div className="border border-2 ">
                       <TrendingCard/>
@@ -62,6 +62,12 @@ const HomeComponent=()=>{
 
 
                   </div>
+              </div>
+
+          </div>
+          <div className="row">
+              <div className="col-sm-2">
+
               </div>
 
           </div>
