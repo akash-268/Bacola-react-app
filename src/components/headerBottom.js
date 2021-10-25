@@ -7,7 +7,7 @@ import "../css/header.css";
 import "../css/main.css";
 
 const HeaderBottom = () => {
-  const [clicked, setClicked] = useState(false);
+  const [clicked, setClicked] = useState(true);
   function clickHandler() {
     setClicked((prev) => !prev);
   }
