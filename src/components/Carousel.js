@@ -15,10 +15,10 @@ const CarouselTab = () => {
     >
       <Carousel>
         <Carousel.Item>
-          <div className="slider-item">
+          <div className="module-slider">
             <div
               className="content-wrapper position-absolute"
-              style={{ zIndex: "1" }}
+              
             >
               <div className="content-header">
                 <div className="content-description">Exclusive Offer</div>
@@ -53,69 +53,80 @@ const CarouselTab = () => {
           </div>
         </Carousel.Item>
         <Carousel.Item>
-          <div
-            className="content-wrapper position-absolute"
-            style={{ zIndex: "1" }}
-          >
-            <div className="content-header">
-              <div className="content-description">Exclusive Offer</div>
-              <div className="content-discount">-30% Off</div>
-            </div>
-            <div className="content-main">
-              <h3 className="entry-title">Feed your family the best</h3>
-              <div className="content-text">Only this week. Don’t miss...</div>
-            </div>
-            <div className="content-footer">
-              <span className="price-text">from </span>
-              <span className="price">$8.99</span>
-            </div>
-            <a
-              href="#"
-              className="
+          <div className="module-slider">
+            <div
+              className="content-wrapper position-absolute"
+              style={{ zIndex: "1" }}
+            >
+              <div className="content-header">
+                <div className="content-description">Exclusive Offer</div>
+                <div className="content-discount">-30% Off</div>
+              </div>
+              <div className="content-main">
+                <h3 className="entry-title">Feed your family the best</h3>
+                <div className="content-text">
+                  Only this week. Don’t miss...
+                </div>
+              </div>
+              <div className="content-footer">
+                <span className="price-text">from </span>
+                <span className="price">$8.99</span>
+              </div>
+              <a
+                href="#"
+                className="
                                             button button-secondary
                                             rounded
                                           "
-            >
-              Shop Now
-              <i className="klbth-icon-right-arrow"></i>
-            </a>
+              >
+                Shop Now
+                <i className="klbth-icon-right-arrow"></i>
+              </a>
+            </div>
+            <img
+              className="d-block w-100 position-relative"
+              src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/slider-image-2.jpg"
+              alt="Second slide"
+            />
           </div>
-          <img
-            className="d-block w-100 position-relative"
-            src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/slider-image-2.jpg"
-            alt="Second slide"
-          />
         </Carousel.Item>
         <Carousel.Item>
-          <div className="content-wrapper position-absolute" style={{zIndex:"1"}}>
-            <div className="content-header">
-              <div className="content-description">Exclusive Offer</div>
-              <div className="content-discount">-40% Off</div>
-            </div>
-            <div className="content-main">
-              <h3 className="entry-title">Grocery full of inspiration</h3>
-              <div className="content-text">Only this week. Don’t miss...</div>
-            </div>
-            <div className="content-footer">
-              <span className="price-text">from </span>
-              <span className="price">$6.99</span>
-            </div>
-            <a
-              href="#"
-              className="
+          <div className="module-slider">
+            <div
+              className="content-wrapper position-absolute"
+              style={{ zIndex: "1" }}
+            >
+              <div className="content-header">
+                <div className="content-description">Exclusive Offer</div>
+                <div className="content-discount">-40% Off</div>
+              </div>
+              <div className="content-main">
+                <h3 className="entry-title">Grocery full of inspiration</h3>
+                <div className="content-text">
+                  Only this week. Don’t miss...
+                </div>
+              </div>
+              <div className="content-footer">
+                <span className="price-text">from </span>
+                <span className="price">$6.99</span>
+              </div>
+              <a
+                href="#"
+                className="
                                             button button-secondary
                                             rounded
                                           "
-            >
-              Shop Now
-              <i className="klbth-icon-right-arrow"></i>
-            </a>
+              >
+                Shop Now
+                <i className="klbth-icon-right-arrow"></i>
+              </a>
+            </div>
+            <img
+              className="d-block w-100 position relative"
+              src="https://klbtheme.com/bacola/wp-content/uploads/2021/05/slider-3.jpg"
+              alt="Third slide"
+            />
           </div>
-          <img
-            className="d-block w-100 position relative"
-            src="https://klbtheme.com/bacola/wp-content/uploads/2021/05/slider-3.jpg"
-            alt="Third slide"
-          />
         </Carousel.Item>
       </Carousel>
     </div>
