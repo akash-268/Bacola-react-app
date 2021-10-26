@@ -179,7 +179,7 @@ const HeaderBottom = () => {
                 <a href="#">
                   <i className="mega-menu"></i> Shop
                 </a>
-                <ul className="sub-menu">
+                <ul className="sub-menu" style={{ zIndex :"100"}}>
                   <li className="dropdown menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
                     <a href="#">Shop Lists</a>
                     <ul className="sub-menu">
