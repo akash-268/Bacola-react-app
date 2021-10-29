@@ -37,7 +37,11 @@ const HeaderBottom = () => {
                 className="dropdown-categories collapse show"
                 id="all-categories"
               >
-                <ul id="menu-sidebar-menu" className="menu-list">
+                <ul
+                  id="menu-sidebar-menu"
+                  className="menu-list"
+                  style={{ height: "450px", overflowY: "scroll" }}
+                >
                   <li className="category-parent parent menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children">
                     <a href="#">
                       <i className="klbth-icon-apple-juice"></i> Fruits &amp;
@@ -179,7 +183,7 @@ const HeaderBottom = () => {
                 <a href="#">
                   <i className="mega-menu"></i> Shop
                 </a>
-                <ul className="sub-menu" style={{ zIndex :"100"}}>
+                <ul className="sub-menu" style={{ zIndex: "100" }}>
                   <li className="dropdown menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
                     <a href="#">Shop Lists</a>
                     <ul className="sub-menu">
