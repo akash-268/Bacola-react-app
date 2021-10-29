@@ -19,7 +19,7 @@ function SideImages() {
       data-id="80d9e2d"
       data-element_type="column"
     >
-      <div className="elementor-widget-wrap elementor-element-populated mt-4 pt-4">
+      <div className="elementor-widget-wrap elementor-element-populated">
         <div
           className="
                           elementor-element
