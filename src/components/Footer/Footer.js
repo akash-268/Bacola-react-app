@@ -1,7 +1,7 @@
 import React from "react";
-import coupon from "../Assets/coupon.png";
-import googleButton from "../Assets/googleButton.png";
-import appleButton from "../Assets/appleButton.png";
+import coupon from "../../Assets/coupon.png";
+import googleButton from "../../Assets/googleButton.png";
+import appleButton from "../../Assets/appleButton.png";
 import {
   GrFacebookOption,
   AiOutlineTwitter,
@@ -11,7 +11,7 @@ import {
   MdOutlineLocalOffer,
   AiOutlineDollar,
 } from "react-icons/all";
-import "../css/footer.css";
+import "../../css/footer.css";
 const Footer = () => {
   return (
     <div className="">

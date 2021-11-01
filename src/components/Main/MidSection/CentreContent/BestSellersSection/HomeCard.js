@@ -1,5 +1,5 @@
 import React from "react";
-import dummyImg from "../Assets/dummyimg1.jpg";
+import dummyImg from "../../../../../Assets/dummyimg1.jpg";
 const HomeCard = () => {
   return (
     <div className="col-sm-3 p-3 border-end">

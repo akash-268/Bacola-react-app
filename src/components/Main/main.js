@@ -1,14 +1,14 @@
 import React from "react";
 
-import "../css/base.css";
-import "../css/element.css";
-import "../css/media.css";
-import "../css/header.css";
-import "../css/main.css";
+import "../../css/base.css";
+import "../../css/element.css";
+import "../../css/media.css";
+import "../../css/header.css";
+import "../../css/main.css";
 
-import TopSection from "./TopSection";
-import MidSection from "./MidSection";
-import BottomSection from "./BottomSection";
+import TopSection from "./TopSection/TopSection";
+import MidSection from "./MidSection/MidSection";
+import BottomSection from "./BottomSection/BottomSection";
 
 const Main = () => {
   return (

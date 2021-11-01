@@ -1,9 +1,9 @@
 import React from "react";
 
-import '../css/base.css'
+import '../../../css/base.css'
 
-import CentreContent from "./CentreContent";
-import SideImages from "./SideImages";
+import CentreContent from "./CentreContent/CentreContent";
+import SideImages from "./SideImages/SideImages";
 
 function MidSection() {
   return (

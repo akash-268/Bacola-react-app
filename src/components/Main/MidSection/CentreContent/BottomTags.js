@@ -1,6 +1,6 @@
 import React from "react";
 
-import '../css/base.css'
+import '../../../../css/base.css'
 
 function BottomTags(){
     return (

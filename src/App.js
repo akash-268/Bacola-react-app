@@ -1,16 +1,16 @@
 import React from "react";
-import AsideBar from "./components/asideBar";
-import Footer from "./components/Footer";
-import Header from "./components/header";
-import Main from "./components/main";
+import AsideBar from "./components/Header/Asidebar/asideBar";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/header";
+import Main from "./components/Main/main";
 
 const App = () => {
   return (
     <div>
       <AsideBar />
       <Header />
-      <Main/>
-      <Footer/>
+      <Main />
+      <Footer />
     </div>
   );
 };

@@ -1,16 +1,15 @@
-import React, { useState } from "react";
-import HeaderBottom from "./headerBottom";
-import HeaderCenter from "./headerCenter";
-import HeaderLeft from "./headerLeft";
-import HeaderRight from "./headerRight";
-import Navbar from "./navbar";
+import HeaderBottom from "./HeaderBottom/headerBottom";
+import HeaderCenter from "./HeaderCenter/headerCenter";
+import HeaderLeft from "./HeaderCenter/HeaderLeft/headerLeft";
+import HeaderRight from "./HeaderCenter/HeaderRight/headerRight";
+import Navbar from "./HeaderTop/Navbar/navbar";
 
 
-import "../css/base.css";
-import "../css/element.css";
-import "../css/media.css";
-import "../css/header.css";
-import "../css/main.css";
+import "../../css/base.css";
+import "../../css/element.css";
+import "../../css/media.css";
+import "../../css/header.css";
+import "../../css/main.css";
 
 const Header = () => {
   return (

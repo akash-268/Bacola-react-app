@@ -1,8 +1,8 @@
 import React from "react";
 
-import '../css/base.css';
-import "../css/main.css";
-import "../css/header.css";
+import '../../../../css/base.css';
+import "../../../../css/main.css";
+import "../../../../css/header.css";
 
 function NewProducts(){
     return (

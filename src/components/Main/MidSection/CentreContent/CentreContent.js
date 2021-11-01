@@ -1,8 +1,8 @@
 import React from "react";
 
-import '../css/base.css';
+import '../../../../css/base.css';
 
-import BestSellers from "./BestSellers";
+import BestSellers from "./BestSellersSection/BestSellers";
 import BottomTags from "./BottomTags";
 import HotProducts from "./HotProducts";
 import NewProducts from "./NewProduct";
