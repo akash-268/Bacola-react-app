@@ -24,7 +24,7 @@ const Main = () => {
             <div className="elementor-section-wrap">
               <TopSection />
               <MidSection />
-              <BottomSection/>
+              <BottomSection />
             </div>
           </div>
         </div>

@@ -2,7 +2,7 @@ import HeaderBottom from "./HeaderBottom/headerBottom";
 import HeaderCenter from "./HeaderCenter/headerCenter";
 import HeaderLeft from "./HeaderCenter/HeaderLeft/headerLeft";
 import HeaderRight from "./HeaderCenter/HeaderRight/headerRight";
-import Navbar from "./HeaderTop/Navbar/navbar";
+import Navbar from "./Navbar/navbar";
 
 
 import "../../css/base.css";
