@@ -1,10 +1,10 @@
 import React from "react";
-
 import "../../../css/base.css";
 import "../../../css/element.css";
 import "../../../css/media.css";
 import "../../../css/header.css";
 import "../../../css/main.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -23,25 +23,25 @@ const Navbar = () => {
                   id="menu-item-1893"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1893"
                 >
-                  <a href="#">About Us</a>
+                  <Link to="/about-us">About Us</Link>
                 </li>
                 <li
                   id="menu-item-1892"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1892"
                 >
-                  <a href="#">My account</a>
+                  <Link to="/my-account">My account</Link>
                 </li>
                 <li
                   id="menu-item-1891"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1891"
                 >
-                  <a href="#">Wishlist</a>
+                  <Link to="/wishlist">Wishlist</Link>
                 </li>
                 <li
                   id="menu-item-1890"
                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1890"
                 >
-                  <a href="#">Order Tracking</a>
+                  <Link to="/order-tracking">Order Tracking</Link>
                 </li>
               </ul>
             </nav>
