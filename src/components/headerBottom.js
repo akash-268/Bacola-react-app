@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../css/base.css";
+import { BrowserRouter as Router} from "react-router-dom";
 
 const HeaderBottom = () => {
   const [clicked, setClicked] = useState(false);
@@ -7,6 +8,7 @@ const HeaderBottom = () => {
     setClicked((prev) => !prev);
   }
   return (
+      <Router>
     <header
       id="masthead"
       className="site-header desktop-shadow-disable mobile-shadow-enable mobile-nav-enable"
@@ -315,6 +317,7 @@ const HeaderBottom = () => {
         </div>
       </div>
     </header>
+      </Router>
   );
 };
 
