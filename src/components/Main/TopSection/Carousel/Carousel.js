@@ -10,7 +10,6 @@ import "../../../../css/main.css";
 const CarouselTab = () => {
   return (
     <div
-      style={{ width: "58%", height: "55%"}}
       className="d-flex justify-content-center"
       
     >
