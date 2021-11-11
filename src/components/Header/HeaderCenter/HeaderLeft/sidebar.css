@@ -1,0 +1,6 @@
+.sidebarisopen{
+    opacity: 1; visibility: inherit; transform: translate(0px, 0px);
+}
+.sidebarisclosed{
+    opacity: 1; visibility: inherit; transform: translate(-475px, 0px);
+}

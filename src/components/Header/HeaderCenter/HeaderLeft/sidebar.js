@@ -4,6 +4,7 @@ import "../../../../css/element.css";
 import "../../../../css/media.css";
 import "../../../../css/header.css";
 import "../../../../css/main.css";
+import "./sidebar.css";
 
 const Sidebar = () => {
   const [close, setClose] = useState(true);
@@ -12,8 +13,8 @@ const Sidebar = () => {
   };
   return (
     close && (
-      <div className="site-canvas" onClick={closeHandler}>
-        <div className="site-scroll">
+      <div className={"site-canvas "+(close ? "sidebarisopen":"sidebarisclosed")}>
+        <div className="site-scroll ps ">
           <div className="canvas-header">
             <div className="site-brand">
               <a href="#" title="Bacola &#8211; Grocery Market and Food Theme">
@@ -26,7 +27,7 @@ const Sidebar = () => {
               </a>
             </div>
             <div className="close-canvas">
-              <i className="klbth-icon-x"></i>
+              <i className="klbth-icon-x" onClick={closeHandler}></i>
             </div>
           </div>
           <div className="canvas-main">

@@ -77,7 +77,7 @@ const Navbar = () => {
                   </li>
                   <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1835">
                     <a href="#">USD</a>{" "}
-                    <ul className="sub-menu">
+                    <ul className="sub-menu" style={{zIndex:"10000000"}}>
                       <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-1839">
                         <a href="#">USD</a>
                       </li>
