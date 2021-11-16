@@ -45,8 +45,8 @@ function BestSellers(){
                 </div>
               </div>
               
-                <div className="row pl-3">
-                  <div className="col-sm-12  ">
+                <div className="row-sm-2 pl-3">
+                  <div className="col-12  ">
                     <div className="row border-2 border rounded-2">
                       <HomeCard />
                       <HomeCard />

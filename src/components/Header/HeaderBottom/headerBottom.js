@@ -6,6 +6,8 @@ import "../../../css/media.css";
 import "../../../css/header.css";
 import "../../../css/main.css";
 
+import { Link } from "react-router-dom";
+
 const HeaderBottom = () => {
   const [clicked, setClicked] = useState(true);
   function clickHandler() {
@@ -74,9 +76,9 @@ const HeaderBottom = () => {
                     </ul>{" "}
                   </li>
                   <li className="category-parent menu-item menu-item-type-taxonomy menu-item-object-product_cat">
-                    <a href="#">
-                      <i className="klbth-icon-meat"></i> Meats &amp; Seafood
-                    </a>
+                    <Link to="/all-products">
+                      <i className="klbth-icon-meat"></i>Meats &amp; Seafood
+                    </Link>
                   </li>
                   <li className="category-parent menu-item menu-item-type-taxonomy menu-item-object-product_cat">
                     <a href="#">
@@ -299,9 +301,9 @@ const HeaderBottom = () => {
                 </ul>
               </li>
               <li className="menu-item menu-item-type-taxonomy menu-item-object-product_cat">
-                <a href="#">
+                <Link to="/all-products">
                   <i className="klbth-icon-meat"></i> Meats &amp; Seafood
-                </a>
+                </Link>
               </li>
               <li className="menu-item menu-item-type-taxonomy menu-item-object-product_cat">
                 <a href="#">
