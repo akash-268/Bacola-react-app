@@ -9,17 +9,12 @@ import "../../../../css/main.css";
 
 const CarouselTab = () => {
   return (
-    <div
-      className="d-flex justify-content-center"
-      
-    >
+    <div className="row">
+    <div className="d-flex justify-content-center col-sm-12">
       <Carousel>
         <Carousel.Item>
           <div className="module-slider">
-            <div
-              className="content-wrapper position-absolute"
-              
-            >
+            <div className="content-wrapper position-absolute">
               <div className="content-header">
                 <div className="content-description">Exclusive Offer</div>
                 <div className="content-discount">-20% Off</div>
@@ -129,6 +124,7 @@ const CarouselTab = () => {
           </div>
         </Carousel.Item>
       </Carousel>
+    </div>
     </div>
   );
 };

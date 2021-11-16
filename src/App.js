@@ -12,11 +12,12 @@ import Aboutus from "./pages/Aboutus";
 import Myaccount from "./pages/Myaccount";
 import Wishlist from "./pages/Wishlist";
 import OrderTracking from "./pages/OrderTracking";
+import ProductCategories from "./pages/ProductCategories";
+import AllProducts from "./pages/AllProducts";
 
 
 const App = () => {
   return (
-
     <Router>
       <AsideBar />
       <Header />
@@ -35,6 +36,12 @@ const App = () => {
         </Route>
         <Route exact path="/order-tracking">
           <OrderTracking />
+        </Route>
+        <Route exact path="/product-categories">
+          <ProductCategories />
+        </Route>
+        <Route exact path="/all-products">
+          <AllProducts/>
         </Route>
       </Switch>
       <Footer />

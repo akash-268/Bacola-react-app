@@ -20,9 +20,9 @@ function Myaccount() {
                                 <nav className="woocommerce-breadcrumb"><ul><li><a href="https://klbtheme.com/bacola">Home</a></li><li>My account</li></ul></nav>
                                 <div className="woocommerce"><div className="woocommerce-notices-wrapper"></div>
 
-                                    <div className="u-columns col2-set" id="customer_login">
+                                    <div className="u-columns col2-set row" id="customer_login">
 
-                                        <div className="u-column1 col-1">
+                                        <div className="u-column1 col-sm-6">
 
 
                                             <h2>Login</h2>
@@ -55,7 +55,7 @@ function Myaccount() {
 
                                         </div>
 
-                                        <div className="u-column2 col-2">
+                                        <div className="u-column2 col-sm-6">
 
                                             <h2>Register</h2>
 

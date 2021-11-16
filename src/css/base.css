@@ -6918,10 +6918,13 @@ img.mfp-img {
   background-color: #fff;
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
+  margin-left: 327px;
 }
-@media screen and (min-width: 26.25rem) {
+@media screen and (max-width: 26.25rem) {
   .site-canvas {
     width: 23.75rem;
+    margin-left: 360px;
+    margin-top: 618px;
   }
 }
 .site-canvas .canvas-title {
