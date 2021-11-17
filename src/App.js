@@ -12,8 +12,9 @@ import Aboutus from "./pages/Aboutus";
 import Myaccount from "./pages/Myaccount";
 import Wishlist from "./pages/Wishlist";
 import OrderTracking from "./pages/OrderTracking";
-import ProductCategories from "./pages/ProductCategories";
 import AllProducts from "./pages/AllProducts";
+import ProductCategories from "./pages/ProductCategories";
+import SingleProductView from "./pages/SingleProductView"
 
 
 const App = () => {
@@ -42,6 +43,9 @@ const App = () => {
         </Route>
         <Route exact path="/all-products">
           <AllProducts/>
+          </Route>
+        <Route exact path="/single-product">
+          <SingleProductView />
         </Route>
       </Switch>
       <Footer />
