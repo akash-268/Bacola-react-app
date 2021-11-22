@@ -1211,7 +1211,11 @@ const AllProducts = () => {
 
                     <div className="widget woocommerce widget_price_filter">
                       <h4 className="widget-title">Filter by price</h4>
-                      <form
+                      <div>
+  <input type="range" id="volume" name="volume"
+         min="0" max="11"/>
+</div>
+                      {/* <form
                         method="get"
                         action="https://klbtheme.com/bacola/product-category/meats-seafood/"
                       >
@@ -1250,7 +1254,7 @@ const AllProducts = () => {
                             <div className="clear"></div>
                           </div>
                         </div>
-                      </form>
+                      </form> */}
                     </div>
                     <div className="widget widget_product_status">
                       <h4 className="widget-title">Product Status</h4>
