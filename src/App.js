@@ -15,6 +15,8 @@ import OrderTracking from "./pages/OrderTracking";
 import AllProducts from "./pages/AllProducts";
 import ProductCategories from "./pages/ProductCategories";
 import SingleProductView from "./pages/SingleProductView"
+import Contact from "./pages/Contact";
+import Cart from "./pages/Cart";
 
 
 const App = () => {
@@ -46,6 +48,12 @@ const App = () => {
           </Route>
         <Route exact path="/single-product">
           <SingleProductView />
+        </Route>
+        <Route exact path="/contact">
+          <Contact/>
+        </Route>
+        <Route exact path="/cart">
+          <Cart/>
         </Route>
       </Switch>
       <Footer />

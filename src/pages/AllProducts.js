@@ -1209,12 +1209,32 @@ const AllProducts = () => {
                       </div>
                     </div>
 
-                    <div className="widget woocommerce widget_price_filter">
+                    <div className="widget woocommerce widget_price_filter conatiner">
                       <h4 className="widget-title">Filter by price</h4>
-                      <div>
-  <input type="range" id="volume" name="volume"
-         min="0" max="11"/>
-</div>
+                      <div className="md-3">
+                        <input
+                          type="range"
+                          id="volume"
+                          name="volume"
+                          min="0"
+                          max="11"
+                          style={{ width: "100%" }}
+                        />
+                      </div>
+                      <div className="row pt-2">
+                        <div className="price_label col-8">
+                          Price:{" "}
+                          <strong>
+                            <span className="from">$0</span> &mdash;
+                            <span className="to"> $50</span>
+                          </strong>
+                        </div>
+                        <div className="col-4">
+                          <span>
+                            <strong>FILTER</strong>
+                          </span>
+                        </div>
+                      </div>
                       {/* <form
                         method="get"
                         action="https://klbtheme.com/bacola/product-category/meats-seafood/"

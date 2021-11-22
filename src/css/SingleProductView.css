@@ -1,0 +1,56 @@
+.SinglePV{
+    background-color:#F7F8FD;
+}
+.inStock{
+    background-color: #E5F8ED;
+    color: #00B853;
+    vertical-align: middle !important;
+}
+.addButton{
+    background-color: #253C96;
+    color:white;
+
+}
+.countButtons{
+    background-color: #EDEEF5;
+    color:black;
+}
+.AddWishlist{
+    color: #71778E;
+    border-color:#71778E ;
+
+}
+.FbIcon{
+    background-color: #3B5998;
+    color: white;
+    margin: 0px 2px;
+
+}
+.TwIcon{
+    background-color: #1DA1F2;
+    color: white;
+    margin: 0px 2px;
+}
+.PiIcon{
+    background-color: #E60023;
+    color: white;
+    margin: 0px 2px;
+}
+.LiIcon{
+    background-color: #0077B5;
+    color: white;
+    margin: 0px 2px;
+}
+.ReIcon{
+    background-color: #FF4500 ;
+    color: white;
+    margin: 0px 2px;
+}
+.WhIcon{
+    background-color: #25D366 ;
+    color:white;
+    margin: 0px 2px;
+}
+.CovidDiv{
+    background-color: #FFEEF2;
+}
